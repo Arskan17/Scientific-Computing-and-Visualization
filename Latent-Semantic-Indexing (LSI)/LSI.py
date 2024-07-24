@@ -46,9 +46,9 @@ vt = full_vt[0:k,:]
 
 
 # Die Anfrage wird in den Topic - Raum transformiert
-suche_k = np.transpose ( u ) * suche
+suche_k = np.transpose(u) * suche
 # berechne f¨ur alle dokumente das skalarprodukt als ¨A hnlichkeitsma ß
-lsi_ergebnis = np.transpose ( vt ) * suche_k
+lsi_ergebnis = np.transpose(vt) * suche_k
 
 
 
